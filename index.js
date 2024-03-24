@@ -11,6 +11,10 @@ app.get('/', (req, res)=>{
     res.render('index.ejs');
 });
 
+app.get('/register', (req, res)=>{
+    res.render('register.ejs');
+})
+
 app.listen(8080, ()=>{
     console.log("Server started successfully at port 8080");
 })
