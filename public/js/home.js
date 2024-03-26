@@ -1,6 +1,6 @@
 function updateCountdown() {
 
-    var targetDate = new Date("2024-03-31T00:00:00");
+    var targetDate = new Date("2024-04-04T18:00:00");
     var currentDate = new Date();
 
     var timeDifference = targetDate.getTime() - currentDate.getTime();
