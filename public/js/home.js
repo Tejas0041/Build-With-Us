@@ -1,6 +1,6 @@
 function updateCountdown() {
 
-    var targetDate = new Date("2024-03-31T00:00:00");
+    var targetDate = new Date("2024-04-04T18:00:00");
     var currentDate = new Date();
 
     var timeDifference = targetDate.getTime() - currentDate.getTime();
@@ -19,3 +19,8 @@ function updateCountdown() {
 updateCountdown();
 
 setInterval(updateCountdown, 1000);
+
+const bt= document.getElementById("registerNow-button");
+bt.addEventListener('click', ()=>{
+    alert("Registration Starting Soon...");
+})
