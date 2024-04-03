@@ -19,8 +19,9 @@ function updateCountdown() {
 updateCountdown();
 
 setInterval(updateCountdown, 1000);
-
+/*
 const bt= document.getElementById("registerNow-button");
 bt.addEventListener('click', ()=>{
     alert("Registration Starting Soon...");
 })
+*/
