@@ -11,10 +11,6 @@ app.get('/', (req, res)=>{
     res.render('index.ejs');
 });
 
-app.get('/problemstatement1', (req, res)=>{
-    res.send('pdf/problemstatement1.pdf');
-})
-
 app.listen(8080, ()=>{
     console.log("Server started successfully at port 8080");
 })
