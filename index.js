@@ -12,7 +12,7 @@ app.get('/', (req, res)=>{
 });
 
 app.get('/problemstatement1', (req, res)=>{
-    res.send('problemstatement1.pdf');
+    res.send('pdf/problemstatement1.pdf');
 })
 
 app.listen(8080, ()=>{
